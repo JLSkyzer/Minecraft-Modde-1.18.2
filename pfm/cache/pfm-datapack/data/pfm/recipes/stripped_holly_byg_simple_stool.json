@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:holly_planks"
+    },
+    {
+      "item": "byg:holly_planks"
+    },
+    {
+      "item": "byg:stripped_holly_log"
+    },
+    {
+      "item": "byg:stripped_holly_log"
+    },
+    {
+      "item": "byg:stripped_holly_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_holly_byg_simple_stool",
+    "count": 4
+  }
+}

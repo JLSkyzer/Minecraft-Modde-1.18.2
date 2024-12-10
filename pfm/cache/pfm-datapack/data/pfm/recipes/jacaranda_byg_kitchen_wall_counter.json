@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:jacaranda_log"
+    },
+    {
+      "item": "byg:jacaranda_log"
+    },
+    {
+      "item": "byg:jacaranda_log"
+    },
+    {
+      "item": "byg:jacaranda_log"
+    },
+    {
+      "item": "byg:jacaranda_log"
+    },
+    {
+      "item": "byg:jacaranda_log"
+    },
+    {
+      "item": "byg:jacaranda_log"
+    },
+    {
+      "item": "byg:jacaranda_log"
+    },
+    {
+      "item": "byg:jacaranda_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:jacaranda_byg_kitchen_wall_counter",
+    "count": 6
+  }
+}

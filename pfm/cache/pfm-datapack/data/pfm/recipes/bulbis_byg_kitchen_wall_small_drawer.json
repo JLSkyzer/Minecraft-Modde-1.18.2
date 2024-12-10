@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:bulbis_byg_kitchen_wall_small_drawer",
+    "count": 3
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:nightshade_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:nightshade_byg_log_stool",
+    "count": 4
+  }
+}

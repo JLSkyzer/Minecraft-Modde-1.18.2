@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "byg:stripped_bulbis_stem"
+    },
+    {
+      "item": "byg:stripped_bulbis_stem"
+    },
+    {
+      "item": "byg:stripped_bulbis_stem"
+    },
+    {
+      "item": "byg:stripped_bulbis_stem"
+    },
+    {
+      "item": "byg:stripped_bulbis_stem"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_bulbis_byg_raw_table_log",
+    "count": 4
+  }
+}

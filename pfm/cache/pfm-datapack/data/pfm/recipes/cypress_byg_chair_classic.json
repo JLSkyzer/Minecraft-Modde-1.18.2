@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "byg:cypress_log"
+    },
+    {
+      "item": "byg:cypress_log"
+    },
+    {
+      "item": "byg:cypress_log"
+    },
+    {
+      "item": "byg:cypress_log"
+    },
+    {
+      "item": "byg:cypress_planks"
+    },
+    {
+      "item": "byg:cypress_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:cypress_byg_chair_classic",
+    "count": 4
+  }
+}

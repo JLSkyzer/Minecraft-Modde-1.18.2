@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "botania:livingwood_log"
+    },
+    {
+      "item": "botania:livingwood_log"
+    },
+    {
+      "item": "botania:livingwood_planks"
+    },
+    {
+      "item": "botania:livingwood_planks"
+    },
+    {
+      "item": "botania:livingwood_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:livingwood_botania_simple_stool",
+    "count": 4
+  }
+}

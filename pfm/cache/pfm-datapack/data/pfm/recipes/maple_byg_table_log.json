@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "byg:maple_log"
+    },
+    {
+      "item": "byg:maple_log"
+    },
+    {
+      "item": "byg:maple_planks"
+    },
+    {
+      "item": "byg:maple_planks"
+    },
+    {
+      "item": "byg:maple_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:maple_byg_table_log",
+    "count": 4
+  }
+}

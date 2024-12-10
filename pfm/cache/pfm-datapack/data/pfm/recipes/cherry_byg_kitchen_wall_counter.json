@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:cherry_log"
+    },
+    {
+      "item": "byg:cherry_log"
+    },
+    {
+      "item": "byg:cherry_log"
+    },
+    {
+      "item": "byg:cherry_log"
+    },
+    {
+      "item": "byg:cherry_log"
+    },
+    {
+      "item": "byg:cherry_log"
+    },
+    {
+      "item": "byg:cherry_log"
+    },
+    {
+      "item": "byg:cherry_log"
+    },
+    {
+      "item": "byg:cherry_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:cherry_byg_kitchen_wall_counter",
+    "count": 6
+  }
+}

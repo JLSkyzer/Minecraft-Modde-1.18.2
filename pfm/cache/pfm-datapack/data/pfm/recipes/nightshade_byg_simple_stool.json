@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:nightshade_log"
+    },
+    {
+      "item": "byg:nightshade_log"
+    },
+    {
+      "item": "byg:nightshade_planks"
+    },
+    {
+      "item": "byg:nightshade_planks"
+    },
+    {
+      "item": "byg:nightshade_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:nightshade_byg_simple_stool",
+    "count": 4
+  }
+}

@@ -1,0 +1,142 @@
+{
+	id: "20B16A04F5001F93"
+	group: ""
+	order_index: 0
+	filename: "admin"
+	title: "admin"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		disable_toast: true
+		x: -5.5d
+		y: -3.5d
+		can_repeat: true
+		id: "523C0C02C2B9C677"
+		tasks: [{
+			id: "097B739FCA694D9C"
+			type: "item"
+			item: "minecraft:dirt"
+		}]
+		rewards: [{
+			id: "78A5D9CEC2E467C0"
+			type: "item"
+			item: {
+				id: "cyclic:storage_bag"
+				Count: 1b
+				tag: {
+					pickup_mode: "nothing"
+					ts: 1725140291985L
+				}
+				ForgeCaps: {
+					Parent: {
+						Size: 81
+						Items: [
+							{
+								Slot: 0
+								id: "mtr:dashboard_4"
+								Count: 1b
+							}
+							{
+								Slot: 1
+								id: "mtr:bridge_creator_3"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 2
+								id: "mtr:bridge_creator_5"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 3
+								id: "mtr:bridge_creator_7"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 4
+								id: "mtr:bridge_creator_9"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 5
+								id: "mtr:tunnel_wall_creator_6_3"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 6
+								id: "mtr:tunnel_wall_creator_6_5"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 7
+								id: "mtr:tunnel_wall_creator_6_7"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 8
+								id: "mtr:tunnel_wall_creator_6_9"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 9
+								id: "mtr:tunnel_wall_creator_5_9"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 10
+								id: "mtr:tunnel_wall_creator_5_7"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 11
+								id: "mtr:tunnel_wall_creator_5_5"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 12
+								id: "mtr:tunnel_wall_creator_5_3"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 13
+								id: "mtr:tunnel_wall_creator_4_9"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 14
+								id: "mtr:tunnel_wall_creator_4_7"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 15
+								id: "mtr:tunnel_wall_creator_4_5"
+								Count: 1b
+								tag: { }
+							}
+							{
+								Slot: 16
+								id: "mtr:tunnel_wall_creator_4_3"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}
+		}]
+	}]
+	quest_links: [ ]
+}

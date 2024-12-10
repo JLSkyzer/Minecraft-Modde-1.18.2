@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_planks"
+    },
+    {
+      "item": "byg:mangrove_planks"
+    },
+    {
+      "item": "byg:mangrove_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:mangrove_byg_simple_stool",
+    "count": 4
+  }
+}

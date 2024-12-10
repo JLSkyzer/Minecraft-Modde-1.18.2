@@ -1,0 +1,1091 @@
+
+[entities]
+
+	[entities.lammergeier]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
+		taming_items = ["minecraft:bone"]
+
+		[entities.lammergeier.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:rocky_shrubland", "biomesoplenty:crag", "minecraft:snowy_slopes", "minecraft:windswept_savanna", "byg:canadian_shield", "byg:dacite_ridges", "minecraft:windswept_forest", "byg:red_rock_valley", "minecraft:windswept_hills", "biomesoplenty:jade_cliffs", "minecraft:frozen_peaks", "minecraft:savanna_plateau", "biomesoplenty:highland", "byg:guiana_shield", "minecraft:wooded_badlands", "minecraft:jagged_peaks", "minecraft:stony_peaks", "biomesoplenty:mediterranean_forest", "minecraft:grove", "minecraft:windswept_gravelly_hills", "minecraft:meadow", "biomesoplenty:highland_moor", "biomesoplenty:volcano"]
+
+			[entities.lammergeier.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.tarantula]
+
+		[entities.tarantula.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 40
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["byg:windswept_desert", "byg:windswept_dunes", "byg:mojave_desert", "biomesoplenty:rainforest", "biomesoplenty:dryland", "byg:crag_gardens", "minecraft:bamboo_jungle", "minecraft:sparse_jungle", "minecraft:desert", "biomesoplenty:fungal_jungle", "minecraft:badlands", "biomesoplenty:floodplain", "biomesoplenty:rocky_rainforest", "byg:guiana_shield", "minecraft:wooded_badlands", "minecraft:jungle", "biomesoplenty:tropics", "biomesoplenty:lush_desert"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.tarantula.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.pheasant]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.pheasant.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 12
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:lush_savanna", "minecraft:dark_forest", "biomesoplenty:snowy_maple_woods", "minecraft:forest", "byg:borealis_grove", "minecraft:plains", "minecraft:old_growth_birch_forest", "minecraft:savanna", "biomesoplenty:lavender_field", "biomesoplenty:wooded_wasteland", "byg:cika_woods", "byg:zelkova_forest", "biomesoplenty:wetland", "biomesoplenty:highland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:boreal_forest", "biomesoplenty:rocky_shrubland", "byg:temperate_grove", "byg:rose_fields", "byg:red_oak_forest", "minecraft:windswept_savanna", "biomesoplenty:orchard", "minecraft:windswept_forest", "byg:temperate_rainforest", "minecraft:birch_forest", "byg:frosted_coniferous_forest", "biomesoplenty:grassland", "minecraft:sparse_jungle", "biomesoplenty:lavender_forest", "biomesoplenty:wooded_scrubland", "biomesoplenty:mystic_grove", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:tundra", "byg:allium_fields", "biomesoplenty:pasture", "biomesoplenty:cherry_blossom_grove", "byg:cherry_blossom_forest", "minecraft:old_growth_pine_taiga", "biomesoplenty:old_growth_woodland", "byg:prairie", "biomesoplenty:prairie", "byg:sierra_badlands", "biomesoplenty:mediterranean_forest", "byg:aspen_forest", "minecraft:sunflower_plains", "minecraft:meadow", "byg:ebony_woods", "biomesoplenty:coniferous_forest", "biomesoplenty:shrubland", "biomesoplenty:bamboo_grove", "biomesoplenty:rainforest", "byg:autumnal_valley", "byg:firecracker_shrubland", "biomesoplenty:forested_field", "biomesoplenty:fir_clearing", "biomesoplenty:rainbow_hills", "minecraft:snowy_taiga", "byg:maple_taiga", "byg:bayou", "minecraft:savanna_plateau", "byg:coniferous_forest", "biomesoplenty:ominous_woods", "byg:autumnal_taiga", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:wasteland", "byg:araucaria_savanna", "minecraft:grove", "byg:skyris_vale", "biomesoplenty:maple_woods", "byg:frosted_taiga", "biomesoplenty:scrubland", "byg:redwood_thicket", "biomesoplenty:dryland", "biomesoplenty:jade_cliffs", "biomesoplenty:redwood_forest", "byg:weeping_witch_forest", "biomesoplenty:woodland", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "byg:coconino_meadow", "byg:amaranth_fields", "biomesoplenty:field", "biomesoplenty:pumpkin_patch", "byg:autumnal_forest", "biomesoplenty:dead_forest", "byg:jacaranda_forest", "byg:baobab_savanna", "byg:guiana_shield", "biomesoplenty:clover_patch", "biomesoplenty:seasonal_forest", "biomesoplenty:lush_desert", "biomesoplenty:snowy_fir_clearing", "byg:forgotten_forest"]
+
+			[entities.pheasant.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.squirrel]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.squirrel.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 8
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:dark_forest", "biomesoplenty:snowy_maple_woods", "minecraft:forest", "byg:borealis_grove", "minecraft:old_growth_birch_forest", "byg:cika_woods", "byg:zelkova_forest", "biomesoplenty:wetland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:boreal_forest", "byg:red_oak_forest", "biomesoplenty:orchard", "minecraft:windswept_forest", "byg:temperate_rainforest", "minecraft:birch_forest", "byg:frosted_coniferous_forest", "minecraft:sparse_jungle", "biomesoplenty:lavender_forest", "biomesoplenty:mystic_grove", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:cherry_blossom_grove", "byg:cherry_blossom_forest", "minecraft:old_growth_pine_taiga", "biomesoplenty:old_growth_woodland", "biomesoplenty:mediterranean_forest", "byg:aspen_forest", "byg:ebony_woods", "biomesoplenty:coniferous_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:rainforest", "biomesoplenty:forested_field", "biomesoplenty:fir_clearing", "biomesoplenty:rainbow_hills", "minecraft:snowy_taiga", "byg:maple_taiga", "byg:bayou", "byg:coniferous_forest", "biomesoplenty:ominous_woods", "byg:autumnal_taiga", "biomesoplenty:snowy_coniferous_forest", "byg:araucaria_savanna", "minecraft:grove", "byg:skyris_vale", "biomesoplenty:maple_woods", "byg:frosted_taiga", "byg:redwood_thicket", "biomesoplenty:jade_cliffs", "biomesoplenty:redwood_forest", "byg:weeping_witch_forest", "biomesoplenty:woodland", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "biomesoplenty:field", "biomesoplenty:pumpkin_patch", "byg:autumnal_forest", "biomesoplenty:dead_forest", "byg:jacaranda_forest", "byg:guiana_shield", "biomesoplenty:seasonal_forest", "biomesoplenty:snowy_fir_clearing", "byg:forgotten_forest"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.squirrel.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.songbird]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.songbird.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 11
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:lush_savanna", "minecraft:dark_forest", "biomesoplenty:snowy_maple_woods", "minecraft:forest", "byg:borealis_grove", "minecraft:plains", "minecraft:old_growth_birch_forest", "minecraft:savanna", "biomesoplenty:lavender_field", "byg:cika_woods", "byg:zelkova_forest", "biomesoplenty:wetland", "biomesoplenty:highland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:boreal_forest", "biomesoplenty:rocky_shrubland", "byg:temperate_grove", "byg:rose_fields", "byg:red_oak_forest", "biomesoplenty:orchard", "minecraft:windswept_forest", "byg:temperate_rainforest", "minecraft:birch_forest", "byg:frosted_coniferous_forest", "biomesoplenty:grassland", "minecraft:sparse_jungle", "biomesoplenty:lavender_forest", "biomesoplenty:mystic_grove", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:tundra", "byg:allium_fields", "biomesoplenty:pasture", "biomesoplenty:cherry_blossom_grove", "byg:cherry_blossom_forest", "minecraft:old_growth_pine_taiga", "biomesoplenty:old_growth_woodland", "byg:prairie", "biomesoplenty:prairie", "byg:sierra_badlands", "biomesoplenty:mediterranean_forest", "byg:aspen_forest", "minecraft:sunflower_plains", "minecraft:meadow", "byg:ebony_woods", "biomesoplenty:coniferous_forest", "biomesoplenty:shrubland", "biomesoplenty:bamboo_grove", "biomesoplenty:rainforest", "byg:autumnal_valley", "byg:firecracker_shrubland", "biomesoplenty:forested_field", "biomesoplenty:fir_clearing", "biomesoplenty:rainbow_hills", "minecraft:snowy_taiga", "byg:maple_taiga", "byg:bayou", "minecraft:savanna_plateau", "byg:coniferous_forest", "biomesoplenty:ominous_woods", "byg:autumnal_taiga", "biomesoplenty:snowy_coniferous_forest", "byg:araucaria_savanna", "minecraft:grove", "byg:skyris_vale", "biomesoplenty:maple_woods", "byg:frosted_taiga", "byg:redwood_thicket", "biomesoplenty:jade_cliffs", "biomesoplenty:redwood_forest", "byg:weeping_witch_forest", "biomesoplenty:woodland", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "byg:coconino_meadow", "byg:amaranth_fields", "biomesoplenty:field", "biomesoplenty:pumpkin_patch", "byg:autumnal_forest", "biomesoplenty:dead_forest", "byg:jacaranda_forest", "byg:guiana_shield", "biomesoplenty:clover_patch", "biomesoplenty:seasonal_forest", "biomesoplenty:snowy_fir_clearing", "byg:forgotten_forest"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.songbird.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.badger]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.badger.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 2
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:lush_savanna", "minecraft:dark_forest", "biomesoplenty:snowy_maple_woods", "minecraft:forest", "byg:borealis_grove", "minecraft:plains", "minecraft:old_growth_birch_forest", "minecraft:savanna", "biomesoplenty:lavender_field", "biomesoplenty:wooded_wasteland", "byg:cika_woods", "byg:zelkova_forest", "biomesoplenty:wetland", "biomesoplenty:highland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:boreal_forest", "biomesoplenty:rocky_shrubland", "byg:temperate_grove", "byg:rose_fields", "byg:red_oak_forest", "minecraft:windswept_savanna", "biomesoplenty:orchard", "minecraft:windswept_forest", "byg:temperate_rainforest", "minecraft:birch_forest", "byg:frosted_coniferous_forest", "biomesoplenty:grassland", "minecraft:sparse_jungle", "biomesoplenty:lavender_forest", "biomesoplenty:wooded_scrubland", "biomesoplenty:mystic_grove", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:tundra", "byg:allium_fields", "biomesoplenty:pasture", "biomesoplenty:cherry_blossom_grove", "byg:cherry_blossom_forest", "minecraft:old_growth_pine_taiga", "biomesoplenty:old_growth_woodland", "byg:prairie", "biomesoplenty:prairie", "byg:sierra_badlands", "biomesoplenty:mediterranean_forest", "byg:aspen_forest", "minecraft:sunflower_plains", "minecraft:meadow", "byg:ebony_woods", "biomesoplenty:coniferous_forest", "biomesoplenty:shrubland", "biomesoplenty:bamboo_grove", "biomesoplenty:rainforest", "byg:autumnal_valley", "byg:firecracker_shrubland", "biomesoplenty:forested_field", "biomesoplenty:fir_clearing", "biomesoplenty:rainbow_hills", "minecraft:snowy_taiga", "byg:maple_taiga", "byg:bayou", "minecraft:savanna_plateau", "byg:coniferous_forest", "biomesoplenty:ominous_woods", "byg:autumnal_taiga", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:wasteland", "byg:araucaria_savanna", "minecraft:grove", "byg:skyris_vale", "biomesoplenty:maple_woods", "byg:frosted_taiga", "biomesoplenty:scrubland", "byg:redwood_thicket", "biomesoplenty:dryland", "biomesoplenty:jade_cliffs", "biomesoplenty:redwood_forest", "byg:weeping_witch_forest", "biomesoplenty:woodland", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "byg:coconino_meadow", "byg:amaranth_fields", "biomesoplenty:field", "biomesoplenty:pumpkin_patch", "byg:autumnal_forest", "biomesoplenty:dead_forest", "byg:jacaranda_forest", "byg:baobab_savanna", "byg:guiana_shield", "biomesoplenty:clover_patch", "biomesoplenty:seasonal_forest", "biomesoplenty:lush_desert", "biomesoplenty:snowy_fir_clearing", "byg:forgotten_forest"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.badger.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.crab]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.crab.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:muskeg", "minecraft:stony_shore", "biomesoplenty:bayou", "biomesoplenty:marsh", "minecraft:snowy_beach", "minecraft:beach", "minecraft:swamp", "biomesoplenty:bog", "byg:bayou", "byg:cypress_swamplands", "biomesoplenty:floodplain", "biomesoplenty:wetland", "biomesoplenty:dune_beach", "biomesoplenty:highland_moor", "biomesoplenty:volcanic_plains"]
+
+			[entities.crab.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.horseshoecrab]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.horseshoecrab.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 8
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:stony_shore", "minecraft:snowy_beach", "biomesoplenty:dune_beach", "minecraft:beach", "biomesoplenty:volcanic_plains"]
+
+			[entities.horseshoecrab.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.shark]
+
+		[entities.shark.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:ocean", "minecraft:frozen_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "byg:lush_stacks", "minecraft:warm_ocean"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.shark.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.turkey]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.turkey.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 11
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:dark_forest", "minecraft:forest", "byg:borealis_grove", "minecraft:old_growth_birch_forest", "byg:cika_woods", "byg:zelkova_forest", "biomesoplenty:wetland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:boreal_forest", "byg:red_oak_forest", "biomesoplenty:orchard", "minecraft:windswept_forest", "byg:temperate_rainforest", "minecraft:birch_forest", "minecraft:sparse_jungle", "biomesoplenty:lavender_forest", "biomesoplenty:mystic_grove", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:cherry_blossom_grove", "byg:cherry_blossom_forest", "minecraft:old_growth_pine_taiga", "biomesoplenty:old_growth_woodland", "biomesoplenty:mediterranean_forest", "byg:aspen_forest", "byg:ebony_woods", "biomesoplenty:coniferous_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:rainforest", "biomesoplenty:forested_field", "biomesoplenty:fir_clearing", "byg:maple_taiga", "byg:bayou", "byg:coniferous_forest", "biomesoplenty:ominous_woods", "byg:autumnal_taiga", "byg:araucaria_savanna", "byg:skyris_vale", "biomesoplenty:maple_woods", "byg:redwood_thicket", "biomesoplenty:jade_cliffs", "biomesoplenty:redwood_forest", "byg:weeping_witch_forest", "biomesoplenty:woodland", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "biomesoplenty:field", "biomesoplenty:pumpkin_patch", "byg:autumnal_forest", "biomesoplenty:dead_forest", "byg:jacaranda_forest", "byg:guiana_shield", "biomesoplenty:seasonal_forest", "byg:forgotten_forest"]
+
+			[entities.turkey.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.bobbit_worm]
+
+		[entities.bobbit_worm.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:ocean", "minecraft:frozen_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "byg:lush_stacks", "minecraft:warm_ocean"]
+
+			[entities.bobbit_worm.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.goose]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#List of blacklisted item IDs that cannot be picked up. Accepts tags by prefixing them with '#'.
+		pickup_blacklist = ["betteranimalsplus:goose_egg", "betteranimalsplus:golden_goose_egg"]
+
+		[entities.goose.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 15
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 2
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:bamboo_grove", "minecraft:forest", "minecraft:frozen_river", "byg:borealis_grove", "biomesoplenty:forested_field", "byg:bayou", "biomesoplenty:wetland", "minecraft:flower_forest", "byg:araucaria_savanna", "byg:orchard", "byg:skyris_vale", "biomesoplenty:boreal_forest", "byg:frosted_taiga", "byg:red_oak_forest", "minecraft:birch_forest", "biomesoplenty:jade_cliffs", "byg:frosted_coniferous_forest", "biomesoplenty:woodland", "biomesoplenty:mystic_grove", "minecraft:river", "biomesoplenty:field", "biomesoplenty:cherry_blossom_grove", "byg:cherry_blossom_forest", "byg:jacaranda_forest", "biomesoplenty:mediterranean_forest", "byg:aspen_forest", "biomesoplenty:seasonal_forest", "byg:forgotten_forest"]
+
+			[entities.goose.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.whale]
+
+		[entities.whale.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:ocean", "minecraft:frozen_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "byg:lush_stacks", "minecraft:warm_ocean"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.whale.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.walrus]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.walrus.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:snowy_beach", "minecraft:frozen_ocean", "minecraft:stony_shore", "minecraft:deep_frozen_ocean"]
+
+			[entities.walrus.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.squid_colossal]
+
+		[entities.squid_colossal.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 1
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean"]
+
+			[entities.squid_colossal.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.squid_giant]
+
+		[entities.squid_giant.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 1
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_ocean", "minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean"]
+
+			[entities.squid_giant.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.octopus]
+
+		[entities.octopus.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 5
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:lukewarm_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:warm_ocean"]
+
+			[entities.octopus.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.brownbear]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.brownbear.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:dark_forest", "biomesoplenty:snowy_maple_woods", "minecraft:forest", "byg:borealis_grove", "minecraft:old_growth_birch_forest", "byg:cika_woods", "byg:zelkova_forest", "biomesoplenty:wetland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:boreal_forest", "byg:red_oak_forest", "biomesoplenty:orchard", "minecraft:windswept_forest", "byg:temperate_rainforest", "minecraft:birch_forest", "byg:frosted_coniferous_forest", "minecraft:sparse_jungle", "biomesoplenty:lavender_forest", "biomesoplenty:mystic_grove", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:cherry_blossom_grove", "byg:cherry_blossom_forest", "minecraft:old_growth_pine_taiga", "biomesoplenty:old_growth_woodland", "biomesoplenty:mediterranean_forest", "byg:aspen_forest", "byg:ebony_woods", "biomesoplenty:coniferous_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:rainforest", "biomesoplenty:forested_field", "biomesoplenty:fir_clearing", "biomesoplenty:rainbow_hills", "minecraft:snowy_taiga", "byg:maple_taiga", "byg:bayou", "byg:coniferous_forest", "biomesoplenty:ominous_woods", "byg:autumnal_taiga", "biomesoplenty:snowy_coniferous_forest", "byg:araucaria_savanna", "minecraft:grove", "byg:skyris_vale", "biomesoplenty:maple_woods", "byg:frosted_taiga", "byg:redwood_thicket", "biomesoplenty:jade_cliffs", "biomesoplenty:redwood_forest", "byg:weeping_witch_forest", "biomesoplenty:woodland", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "biomesoplenty:field", "biomesoplenty:pumpkin_patch", "byg:autumnal_forest", "biomesoplenty:dead_forest", "byg:jacaranda_forest", "byg:guiana_shield", "biomesoplenty:seasonal_forest", "biomesoplenty:snowy_fir_clearing", "byg:forgotten_forest"]
+
+			[entities.brownbear.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.blackbear]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.blackbear.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 6
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:dark_forest", "biomesoplenty:snowy_maple_woods", "minecraft:forest", "byg:borealis_grove", "minecraft:old_growth_birch_forest", "byg:cika_woods", "byg:zelkova_forest", "biomesoplenty:wetland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:boreal_forest", "byg:red_oak_forest", "biomesoplenty:orchard", "minecraft:windswept_forest", "byg:temperate_rainforest", "minecraft:birch_forest", "byg:frosted_coniferous_forest", "minecraft:sparse_jungle", "biomesoplenty:lavender_forest", "biomesoplenty:mystic_grove", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:cherry_blossom_grove", "byg:cherry_blossom_forest", "minecraft:old_growth_pine_taiga", "biomesoplenty:old_growth_woodland", "biomesoplenty:mediterranean_forest", "byg:aspen_forest", "byg:ebony_woods", "biomesoplenty:coniferous_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:rainforest", "biomesoplenty:forested_field", "biomesoplenty:fir_clearing", "biomesoplenty:rainbow_hills", "minecraft:snowy_taiga", "byg:maple_taiga", "byg:bayou", "byg:coniferous_forest", "biomesoplenty:ominous_woods", "byg:autumnal_taiga", "biomesoplenty:snowy_coniferous_forest", "byg:araucaria_savanna", "minecraft:grove", "byg:skyris_vale", "biomesoplenty:maple_woods", "byg:frosted_taiga", "byg:redwood_thicket", "biomesoplenty:jade_cliffs", "biomesoplenty:redwood_forest", "byg:weeping_witch_forest", "biomesoplenty:woodland", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "biomesoplenty:field", "biomesoplenty:pumpkin_patch", "byg:autumnal_forest", "biomesoplenty:dead_forest", "byg:jacaranda_forest", "byg:guiana_shield", "biomesoplenty:seasonal_forest", "biomesoplenty:snowy_fir_clearing", "byg:forgotten_forest"]
+
+			[entities.blackbear.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.deer]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.deer.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 16
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:dark_forest", "biomesoplenty:snowy_maple_woods", "minecraft:forest", "byg:borealis_grove", "byg:twilight_meadow", "minecraft:old_growth_birch_forest", "byg:crag_gardens", "byg:cika_woods", "byg:zelkova_forest", "biomesoplenty:wetland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:boreal_forest", "byg:red_oak_forest", "biomesoplenty:orchard", "minecraft:windswept_forest", "byg:temperate_rainforest", "minecraft:birch_forest", "byg:frosted_coniferous_forest", "minecraft:sparse_jungle", "biomesoplenty:lavender_forest", "biomesoplenty:mystic_grove", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:fungal_jungle", "biomesoplenty:cherry_blossom_grove", "byg:cherry_blossom_forest", "minecraft:old_growth_pine_taiga", "biomesoplenty:old_growth_woodland", "biomesoplenty:mediterranean_forest", "byg:aspen_forest", "byg:ebony_woods", "biomesoplenty:coniferous_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:rainforest", "biomesoplenty:forested_field", "biomesoplenty:fir_clearing", "biomesoplenty:rainbow_hills", "minecraft:snowy_taiga", "byg:maple_taiga", "byg:bayou", "byg:coniferous_forest", "biomesoplenty:ominous_woods", "byg:autumnal_taiga", "biomesoplenty:snowy_coniferous_forest", "byg:araucaria_savanna", "minecraft:grove", "byg:skyris_vale", "biomesoplenty:maple_woods", "byg:frosted_taiga", "byg:redwood_thicket", "biomesoplenty:jade_cliffs", "biomesoplenty:redwood_forest", "byg:weeping_witch_forest", "biomesoplenty:woodland", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "biomesoplenty:field", "biomesoplenty:pumpkin_patch", "byg:autumnal_forest", "biomesoplenty:dead_forest", "byg:jacaranda_forest", "byg:guiana_shield", "biomesoplenty:seasonal_forest", "biomesoplenty:snowy_fir_clearing", "byg:forgotten_forest"]
+
+			[entities.deer.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.feralwolf]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
+		taming_items = ["minecraft:bone"]
+
+		[entities.feralwolf.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 6
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:dark_forest", "biomesoplenty:snowy_maple_woods", "minecraft:forest", "byg:borealis_grove", "byg:twilight_meadow", "minecraft:old_growth_birch_forest", "byg:crag_gardens", "byg:cika_woods", "byg:zelkova_forest", "biomesoplenty:wetland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:boreal_forest", "byg:red_oak_forest", "biomesoplenty:orchard", "minecraft:windswept_forest", "byg:temperate_rainforest", "minecraft:birch_forest", "byg:frosted_coniferous_forest", "minecraft:sparse_jungle", "biomesoplenty:lavender_forest", "biomesoplenty:mystic_grove", "biomesoplenty:old_growth_dead_forest", "biomesoplenty:fungal_jungle", "biomesoplenty:cherry_blossom_grove", "byg:cherry_blossom_forest", "minecraft:old_growth_pine_taiga", "biomesoplenty:old_growth_woodland", "biomesoplenty:mediterranean_forest", "byg:aspen_forest", "byg:ebony_woods", "biomesoplenty:coniferous_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:rainforest", "biomesoplenty:forested_field", "biomesoplenty:fir_clearing", "biomesoplenty:rainbow_hills", "minecraft:snowy_taiga", "byg:maple_taiga", "byg:bayou", "byg:coniferous_forest", "biomesoplenty:ominous_woods", "byg:autumnal_taiga", "biomesoplenty:snowy_coniferous_forest", "byg:araucaria_savanna", "minecraft:grove", "byg:lush_stacks", "byg:skyris_vale", "biomesoplenty:maple_woods", "byg:frosted_taiga", "byg:redwood_thicket", "biomesoplenty:jade_cliffs", "biomesoplenty:redwood_forest", "byg:weeping_witch_forest", "biomesoplenty:woodland", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "biomesoplenty:field", "biomesoplenty:pumpkin_patch", "byg:autumnal_forest", "biomesoplenty:dead_forest", "byg:jacaranda_forest", "byg:guiana_shield", "biomesoplenty:seasonal_forest", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:spider_nest", "byg:forgotten_forest"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.feralwolf.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.coyote]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+		#Makes coyote always hostile (removes ability to tame!)
+		hostile_during_daytime = false
+		#List of acceptable item IDs to use for taming. Accepts tags by prefixing them with '#'.
+		taming_items = ["minecraft:rabbit", "minecraft:chicken", "betteranimalsplus:pheasantraw", "minecraft:cooked_rabbit", "minecraft:cooked_chicken", "betteranimalsplus:pheasantcooked"]
+
+		[entities.coyote.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 5
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 6
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:lush_savanna", "biomesoplenty:shrubland", "byg:windswept_desert", "byg:windswept_dunes", "byg:mojave_desert", "byg:autumnal_valley", "byg:firecracker_shrubland", "minecraft:plains", "minecraft:savanna", "biomesoplenty:lavender_field", "minecraft:desert", "minecraft:savanna_plateau", "biomesoplenty:highland", "byg:orchard", "biomesoplenty:rocky_shrubland", "byg:temperate_grove", "byg:rose_fields", "biomesoplenty:orchard", "biomesoplenty:dryland", "biomesoplenty:grassland", "byg:coconino_meadow", "byg:amaranth_fields", "biomesoplenty:tundra", "byg:allium_fields", "biomesoplenty:pasture", "minecraft:badlands", "byg:prairie", "biomesoplenty:prairie", "minecraft:wooded_badlands", "byg:sierra_badlands", "minecraft:sunflower_plains", "biomesoplenty:clover_patch", "biomesoplenty:lush_desert", "minecraft:meadow"]
+
+			[entities.coyote.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.jellyfish]
+
+		[entities.jellyfish.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:ocean", "minecraft:frozen_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "byg:lush_stacks", "minecraft:warm_ocean"]
+
+			[entities.jellyfish.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.reindeer]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.reindeer.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:muskeg", "minecraft:snowy_slopes", "minecraft:ice_spikes", "biomesoplenty:snowy_maple_woods", "minecraft:snowy_beach", "minecraft:frozen_river", "byg:frosted_coniferous_forest", "biomesoplenty:cold_desert", "biomesoplenty:rainbow_hills", "minecraft:snowy_taiga", "minecraft:snowy_plains", "minecraft:frozen_peaks", "byg:shattered_glacier", "minecraft:jagged_peaks", "biomesoplenty:snowy_coniferous_forest", "minecraft:grove", "biomesoplenty:snowy_fir_clearing", "byg:frosted_taiga"]
+
+			[entities.reindeer.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.boar]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.boar.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 9
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 4
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:dark_forest", "biomesoplenty:snowy_maple_woods", "minecraft:forest", "minecraft:plains", "minecraft:old_growth_birch_forest", "biomesoplenty:lavender_field", "byg:crag_gardens", "minecraft:flower_forest", "byg:orchard", "byg:rose_fields", "minecraft:windswept_savanna", "minecraft:windswept_forest", "minecraft:birch_forest", "minecraft:sparse_jungle", "biomesoplenty:old_growth_dead_forest", "byg:allium_fields", "byg:cherry_blossom_forest", "minecraft:old_growth_pine_taiga", "byg:prairie", "biomesoplenty:prairie", "byg:ebony_woods", "biomesoplenty:coniferous_forest", "biomesoplenty:shrubland", "biomesoplenty:bamboo_grove", "biomesoplenty:rainforest", "byg:autumnal_valley", "byg:firecracker_shrubland", "biomesoplenty:fir_clearing", "biomesoplenty:rainbow_hills", "minecraft:snowy_taiga", "biomesoplenty:ominous_woods", "biomesoplenty:snowy_coniferous_forest", "biomesoplenty:wasteland", "minecraft:jungle", "byg:araucaria_savanna", "minecraft:grove", "biomesoplenty:maple_woods", "byg:frosted_taiga", "biomesoplenty:scrubland", "byg:redwood_thicket", "biomesoplenty:dryland", "biomesoplenty:redwood_forest", "byg:weeping_witch_forest", "biomesoplenty:woodland", "minecraft:old_growth_spruce_taiga", "minecraft:taiga", "biomesoplenty:field", "byg:autumnal_forest", "byg:guiana_shield", "biomesoplenty:clover_patch", "biomesoplenty:lush_desert", "biomesoplenty:snowy_fir_clearing", "biomesoplenty:lush_savanna", "byg:borealis_grove", "minecraft:savanna", "biomesoplenty:wooded_wasteland", "byg:cika_woods", "byg:zelkova_forest", "biomesoplenty:wetland", "biomesoplenty:highland", "biomesoplenty:boreal_forest", "biomesoplenty:rocky_shrubland", "byg:temperate_grove", "byg:red_oak_forest", "biomesoplenty:orchard", "byg:temperate_rainforest", "byg:frosted_coniferous_forest", "biomesoplenty:grassland", "biomesoplenty:lavender_forest", "biomesoplenty:wooded_scrubland", "biomesoplenty:mystic_grove", "biomesoplenty:tundra", "biomesoplenty:fungal_jungle", "biomesoplenty:pasture", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:floodplain", "biomesoplenty:rocky_rainforest", "biomesoplenty:old_growth_woodland", "byg:sierra_badlands", "biomesoplenty:mediterranean_forest", "biomesoplenty:tropics", "byg:aspen_forest", "minecraft:sunflower_plains", "minecraft:meadow", "biomesoplenty:forested_field", "minecraft:bamboo_jungle", "byg:maple_taiga", "byg:bayou", "minecraft:savanna_plateau", "byg:coniferous_forest", "byg:autumnal_taiga", "byg:skyris_vale", "biomesoplenty:jade_cliffs", "byg:coconino_meadow", "byg:amaranth_fields", "biomesoplenty:pumpkin_patch", "biomesoplenty:dead_forest", "byg:jacaranda_forest", "byg:baobab_savanna", "biomesoplenty:seasonal_forest", "byg:forgotten_forest"]
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+
+			[entities.boar.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+		[entities.boar.nerf_options]
+			#Sets boars in breeding mode if they kill something
+			breed_from_kill = true
+			#Sets boars in breeding mode if they eat crops or berries
+			breed_from_crops = true
+			#Makes boars eat crops
+			eat_crops = true
+			#Chance out of 100 the boar will execute targeting AI: lower number = less common attacks
+			#Range: 0 ~ 100
+			target_chance = 100
+
+	[entities.lamprey]
+
+		[entities.lamprey.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:swamp", "biomesoplenty:bog", "biomesoplenty:muskeg", "minecraft:river", "byg:bayou", "biomesoplenty:bayou", "biomesoplenty:marsh", "byg:cypress_swamplands", "biomesoplenty:floodplain", "biomesoplenty:wetland", "minecraft:frozen_river", "biomesoplenty:highland_moor"]
+
+			[entities.lamprey.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.nautilus]
+
+		[entities.nautilus.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:deep_cold_ocean", "minecraft:deep_frozen_ocean", "minecraft:deep_lukewarm_ocean", "minecraft:ocean", "minecraft:frozen_ocean", "minecraft:lukewarm_ocean", "minecraft:deep_ocean", "minecraft:cold_ocean", "byg:lush_stacks", "minecraft:warm_ocean"]
+
+			[entities.nautilus.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.moose]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = false
+
+		[entities.moose.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 8
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:muskeg", "biomesoplenty:bayou", "biomesoplenty:marsh", "minecraft:old_growth_spruce_taiga", "minecraft:swamp", "biomesoplenty:bog", "byg:bayou", "byg:cypress_swamplands", "biomesoplenty:floodplain", "biomesoplenty:wetland", "minecraft:old_growth_pine_taiga", "biomesoplenty:highland_moor"]
+
+			[entities.moose.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.eel_freshwater]
+
+		[entities.eel_freshwater.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:swamp", "biomesoplenty:bog", "biomesoplenty:muskeg", "minecraft:river", "byg:bayou", "biomesoplenty:bayou", "biomesoplenty:marsh", "byg:cypress_swamplands", "biomesoplenty:floodplain", "biomesoplenty:wetland", "minecraft:frozen_river", "biomesoplenty:highland_moor"]
+
+			[entities.eel_freshwater.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.eel_saltwater]
+
+		[entities.eel_saltwater.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 4
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:ocean", "minecraft:lukewarm_ocean", "byg:lush_stacks", "minecraft:warm_ocean"]
+
+			[entities.eel_saltwater.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.butterfly]
+
+		[entities.butterfly.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:dark_forest", "minecraft:forest", "byg:borealis_grove", "minecraft:old_growth_birch_forest", "byg:crag_gardens", "biomesoplenty:wetland", "minecraft:flower_forest", "byg:orchard", "biomesoplenty:boreal_forest", "byg:red_oak_forest", "biomesoplenty:orchard", "minecraft:windswept_forest", "byg:temperate_rainforest", "minecraft:birch_forest", "byg:frosted_coniferous_forest", "minecraft:sparse_jungle", "biomesoplenty:lavender_forest", "biomesoplenty:mystic_grove", "biomesoplenty:fungal_jungle", "biomesoplenty:cherry_blossom_grove", "biomesoplenty:floodplain", "byg:cherry_blossom_forest", "biomesoplenty:rocky_rainforest", "biomesoplenty:old_growth_woodland", "biomesoplenty:mediterranean_forest", "byg:aspen_forest", "biomesoplenty:tropics", "byg:ebony_woods", "biomesoplenty:coniferous_forest", "biomesoplenty:bamboo_grove", "biomesoplenty:rainforest", "biomesoplenty:forested_field", "biomesoplenty:fir_clearing", "minecraft:bamboo_jungle", "byg:bayou", "byg:araucaria_savanna", "minecraft:jungle", "byg:skyris_vale", "byg:frosted_taiga", "byg:redwood_thicket", "biomesoplenty:jade_cliffs", "biomesoplenty:redwood_forest", "biomesoplenty:woodland", "minecraft:old_growth_spruce_taiga", "biomesoplenty:field", "biomesoplenty:pumpkin_patch", "byg:jacaranda_forest", "byg:guiana_shield", "biomesoplenty:seasonal_forest", "byg:forgotten_forest"]
+
+			[entities.butterfly.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.dragonfly]
+
+		[entities.dragonfly.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:swamp", "biomesoplenty:bog", "biomesoplenty:muskeg", "minecraft:river", "byg:bayou", "biomesoplenty:bayou", "biomesoplenty:marsh", "byg:cypress_swamplands", "biomesoplenty:floodplain", "biomesoplenty:wetland", "minecraft:frozen_river", "biomesoplenty:highland_moor"]
+
+			[entities.dragonfly.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.barracuda]
+
+		[entities.barracuda.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 3
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:lukewarm_ocean", "minecraft:warm_ocean"]
+
+			[entities.barracuda.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.flying_fish]
+
+		[entities.flying_fish.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:lukewarm_ocean", "minecraft:warm_ocean"]
+
+			[entities.flying_fish.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.piranha]
+
+		[entities.piranha.spawning]
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 7
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 5
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["biomesoplenty:rainforest", "biomesoplenty:fungal_jungle", "biomesoplenty:floodplain", "biomesoplenty:rocky_rainforest", "byg:guiana_shield", "minecraft:jungle", "biomesoplenty:tropics", "byg:crag_gardens", "minecraft:bamboo_jungle", "minecraft:sparse_jungle"]
+
+			[entities.piranha.spawning.spawn_costs]
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+

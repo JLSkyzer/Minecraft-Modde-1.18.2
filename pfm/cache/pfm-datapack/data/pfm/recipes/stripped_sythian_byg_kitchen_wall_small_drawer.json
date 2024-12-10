@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:stripped_sythian_stem"
+    },
+    {
+      "item": "byg:stripped_sythian_stem"
+    },
+    {
+      "item": "byg:stripped_sythian_stem"
+    },
+    {
+      "item": "byg:stripped_sythian_stem"
+    },
+    {
+      "item": "byg:stripped_sythian_stem"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_sythian_byg_kitchen_wall_small_drawer",
+    "count": 3
+  }
+}

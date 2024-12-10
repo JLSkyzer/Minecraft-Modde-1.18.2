@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "byg:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "byg:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "byg:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "byg:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "byg:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "byg:stripped_rainbow_eucalyptus_log"
+    },
+    {
+      "item": "byg:stripped_rainbow_eucalyptus_log"
+    },
+    {
+      "item": "byg:stripped_rainbow_eucalyptus_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_rainbow_eucalyptus_byg_table_basic",
+    "count": 4
+  }
+}

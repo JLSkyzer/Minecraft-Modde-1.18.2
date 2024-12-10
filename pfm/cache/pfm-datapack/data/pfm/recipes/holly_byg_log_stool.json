@@ -1,0 +1,13 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:holly_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:holly_byg_log_stool",
+    "count": 4
+  }
+}

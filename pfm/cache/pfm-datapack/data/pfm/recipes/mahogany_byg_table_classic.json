@@ -1,0 +1,31 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "byg:mahogany_log"
+    },
+    {
+      "item": "byg:mahogany_log"
+    },
+    {
+      "item": "byg:mahogany_log"
+    },
+    {
+      "item": "byg:mahogany_log"
+    },
+    {
+      "item": "byg:mahogany_planks"
+    },
+    {
+      "item": "byg:mahogany_planks"
+    },
+    {
+      "item": "byg:mahogany_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:mahogany_byg_table_classic",
+    "count": 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "byg:zelkova_planks"
+    },
+    {
+      "item": "byg:zelkova_planks"
+    },
+    {
+      "item": "byg:stripped_zelkova_log"
+    },
+    {
+      "item": "byg:stripped_zelkova_log"
+    },
+    {
+      "item": "byg:stripped_zelkova_log"
+    },
+    {
+      "item": "byg:stripped_zelkova_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_zelkova_byg_chair",
+    "count": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:skyris_byg_kitchen_wall_counter",
+    "count": 6
+  }
+}

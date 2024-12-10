@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "byg:palm_log"
+    },
+    {
+      "item": "byg:palm_log"
+    },
+    {
+      "item": "byg:palm_log"
+    },
+    {
+      "item": "byg:palm_log"
+    },
+    {
+      "item": "byg:palm_log"
+    },
+    {
+      "item": "byg:palm_planks"
+    },
+    {
+      "item": "byg:palm_planks"
+    },
+    {
+      "item": "byg:palm_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:palm_byg_table_basic",
+    "count": 4
+  }
+}

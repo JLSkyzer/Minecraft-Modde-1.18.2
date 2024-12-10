@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "byg:cika_planks"
+    },
+    {
+      "item": "byg:cika_planks"
+    },
+    {
+      "item": "byg:stripped_cika_log"
+    },
+    {
+      "item": "byg:stripped_cika_log"
+    },
+    {
+      "item": "byg:stripped_cika_log"
+    },
+    {
+      "item": "byg:stripped_cika_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_cika_byg_chair",
+    "count": 4
+  }
+}

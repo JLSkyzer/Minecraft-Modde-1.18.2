@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:baobab_byg_kitchen_wall_counter",
+    "count": 6
+  }
+}

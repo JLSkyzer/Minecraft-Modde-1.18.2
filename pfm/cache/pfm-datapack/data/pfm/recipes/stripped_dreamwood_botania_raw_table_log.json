@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "botania:stripped_dreamwood_log"
+    },
+    {
+      "item": "botania:stripped_dreamwood_log"
+    },
+    {
+      "item": "botania:stripped_dreamwood_log"
+    },
+    {
+      "item": "botania:stripped_dreamwood_log"
+    },
+    {
+      "item": "botania:stripped_dreamwood_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_dreamwood_botania_raw_table_log",
+    "count": 4
+  }
+}

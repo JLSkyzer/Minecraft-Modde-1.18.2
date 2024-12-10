@@ -1,0 +1,377 @@
+{
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2024-11-22 15:13:16 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/deepslate": {
+    "criteria": {
+      "has_deepslate": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/corundum_tools": {
+    "criteria": {
+      "corundum_shovel": "2024-11-22 15:13:04 +0100",
+      "corundum_sword": "2024-11-22 15:13:04 +0100",
+      "corundum_sickle": "2024-11-22 15:13:04 +0100",
+      "corundum_pickaxe": "2024-11-22 15:13:04 +0100",
+      "corundum_axe": "2024-11-22 15:13:04 +0100",
+      "corundum_hoe": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass": {
+    "criteria": {
+      "has_compass": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "create_connected:root": {
+    "criteria": {
+      "0": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "byg:root": {
+    "criteria": {
+      "tick": "2024-11-22 15:13:16 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/blackstone": {
+    "criteria": {
+      "has_blackstone": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "shrubland": "2024-11-22 15:20:34 +0100",
+      "rocky_shrubland": "2024-11-22 15:21:08 +0100",
+      "scrubland": "2024-11-22 15:20:35 +0100",
+      "fungal_jungle": "2024-11-22 15:20:47 +0100",
+      "highland": "2024-11-22 15:21:04 +0100",
+      "mediterranean_forest": "2024-11-22 15:20:37 +0100",
+      "rainforest": "2024-11-22 15:21:19 +0100"
+    },
+    "done": false
+  },
+  "mobz:recipes/metalingotrecipes": {
+    "criteria": {
+      "got_the_metal_ingot": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mobz:recipes/withermeal_recipe": {
+    "criteria": {
+      "got_the_withermeal": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/sandstone": {
+    "criteria": {
+      "has_sand": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-11-22 15:20:48 +0100",
+      "minecraft:deep_lukewarm_ocean": "2024-11-22 15:21:20 +0100",
+      "minecraft:flower_forest": "2024-11-22 15:20:57 +0100",
+      "minecraft:plains": "2024-11-22 15:13:04 +0100"
+    },
+    "done": false
+  },
+  "moreoresinone:moreoresinone/find_ruby": {
+    "criteria": {
+      "ruby": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2024-11-22 15:13:16 +0100"
+    },
+    "done": true
+  },
+  "mobz:recipes/bearleather_recipe": {
+    "criteria": {
+      "got_the_bearleather": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/nether": {
+    "criteria": {
+      "has_nether_brick": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/sapphire_tools": {
+    "criteria": {
+      "sapphire_axe": "2024-11-22 15:13:04 +0100",
+      "sapphire_hoe": "2024-11-22 15:13:04 +0100",
+      "sapphire_sickle": "2024-11-22 15:13:04 +0100",
+      "sapphire_shovel": "2024-11-22 15:13:04 +0100",
+      "sapphire_sword": "2024-11-22 15:13:04 +0100",
+      "sapphire_pickaxe": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/root": {
+    "criteria": {
+      "has_iron_pickaxe": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "apotheosis:give_book": {
+    "criteria": {
+      "tick": "2024-11-22 15:13:16 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/find_topaz": {
+    "criteria": {
+      "topaz": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/stone": {
+    "criteria": {
+      "has_stone": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/crimson": {
+    "criteria": {
+      "has_crimson": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2024-11-22 15:13:16 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/warped": {
+    "criteria": {
+      "has_warped": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/bamboo": {
+    "criteria": {
+      "has_bamboo": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/prismarine": {
+    "criteria": {
+      "has_qq": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/acacia": {
+    "criteria": {
+      "has_acacia": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/ruby_tools": {
+    "criteria": {
+      "ruby_sickle": "2024-11-22 15:13:04 +0100",
+      "ruby_sword": "2024-11-22 15:13:04 +0100",
+      "ruby_axe": "2024-11-22 15:13:04 +0100",
+      "ruby_hoe": "2024-11-22 15:13:04 +0100",
+      "ruby_pickaxe": "2024-11-22 15:13:04 +0100",
+      "ruby_shovel": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/jungle": {
+    "criteria": {
+      "has_jungle": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/quartz": {
+    "criteria": {
+      "has_qq": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/spruce": {
+    "criteria": {
+      "has_spruce": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/oak": {
+    "criteria": {
+      "has_oak": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/hedge": {
+    "criteria": {
+      "has_birch": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/end": {
+    "criteria": {
+      "has_end_brick": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/cryorite_tools": {
+    "criteria": {
+      "cryorite_sword": "2024-11-22 15:13:04 +0100",
+      "cryorite_axe": "2024-11-22 15:13:04 +0100",
+      "cryorite_hoe": "2024-11-22 15:13:04 +0100",
+      "cryorite_pickaxe": "2024-11-22 15:13:04 +0100",
+      "cryorite_shovel": "2024-11-22 15:13:04 +0100",
+      "cryorite_sickle": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mobz:recipes/bossingotrecipes": {
+    "criteria": {
+      "got_the_boss_ingot": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/find_sapphire": {
+    "criteria": {
+      "sapphire": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/birch": {
+    "criteria": {
+      "has_birch": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_key": {
+    "criteria": {
+      "has_ingredient": "2024-11-22 15:20:23 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/find_corundum": {
+    "criteria": {
+      "corundum": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/find_cryorite": {
+    "criteria": {
+      "cryorite": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mcwfences:recipes/dark_oak": {
+    "criteria": {
+      "has_dark_oak": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/root": {
+    "criteria": {
+      "shrubland": "2024-11-22 15:20:34 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/corundum_armor": {
+    "criteria": {
+      "corundum_leggings": "2024-11-22 15:13:04 +0100",
+      "corundum_boots": "2024-11-22 15:13:04 +0100",
+      "corundum_helmet": "2024-11-22 15:13:04 +0100",
+      "corundum_chestplate": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "betteranimalsplus:bad_fox": {
+    "criteria": {
+      "no_bam": "2024-11-22 15:13:15 +0100"
+    },
+    "done": false
+  },
+  "mobz:recipes/rottenflesh_recipe": {
+    "criteria": {
+      "got_the_rottenflesh": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_recipe": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mobz:recipes/amatingotrecipes": {
+    "criteria": {
+      "got_the_amat_ingot": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_recipe": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "moreoresinone:moreoresinone/topaz_pickaxe": {
+    "criteria": {
+      "topaz_pickaxe": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mobz:recipes/frozensword_recipe": {
+    "criteria": {
+      "got_the_frozenmeal": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2024-11-22 15:13:44 +0100"
+    },
+    "done": true
+  },
+  "byg:biomepedia_gift": {
+    "criteria": {
+      "tick": "2024-11-22 15:13:16 +0100"
+    },
+    "done": true
+  },
+  "inventorypets:root": {
+    "criteria": {
+      "auto": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "mobz:recipes/speedboots2_recipe": {
+    "criteria": {
+      "got_the_speedboots": "2024-11-22 15:13:04 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}

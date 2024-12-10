@@ -1,0 +1,22 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:cika_planks"
+    },
+    {
+      "item": "byg:stripped_cika_log"
+    },
+    {
+      "item": "byg:stripped_cika_log"
+    },
+    {
+      "item": "byg:stripped_cika_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_cika_byg_modern_stool",
+    "count": 4
+  }
+}

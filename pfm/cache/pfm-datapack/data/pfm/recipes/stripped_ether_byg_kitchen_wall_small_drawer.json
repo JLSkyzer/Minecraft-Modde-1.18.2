@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:stripped_ether_log"
+    },
+    {
+      "item": "byg:stripped_ether_log"
+    },
+    {
+      "item": "byg:stripped_ether_log"
+    },
+    {
+      "item": "byg:stripped_ether_log"
+    },
+    {
+      "item": "byg:stripped_ether_log"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_ether_byg_kitchen_wall_small_drawer",
+    "count": 3
+  }
+}

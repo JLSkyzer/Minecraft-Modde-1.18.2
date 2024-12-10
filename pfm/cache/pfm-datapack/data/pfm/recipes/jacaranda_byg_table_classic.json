@@ -1,0 +1,31 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "byg:jacaranda_log"
+    },
+    {
+      "item": "byg:jacaranda_log"
+    },
+    {
+      "item": "byg:jacaranda_log"
+    },
+    {
+      "item": "byg:jacaranda_log"
+    },
+    {
+      "item": "byg:jacaranda_planks"
+    },
+    {
+      "item": "byg:jacaranda_planks"
+    },
+    {
+      "item": "byg:jacaranda_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:jacaranda_byg_table_classic",
+    "count": 4
+  }
+}

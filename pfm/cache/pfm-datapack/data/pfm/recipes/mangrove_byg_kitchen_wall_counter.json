@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:mangrove_byg_kitchen_wall_counter",
+    "count": 6
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:aspen_log"
+    },
+    {
+      "item": "byg:aspen_log"
+    },
+    {
+      "item": "byg:aspen_log"
+    },
+    {
+      "item": "byg:aspen_log"
+    },
+    {
+      "item": "byg:aspen_log"
+    },
+    {
+      "item": "byg:aspen_log"
+    },
+    {
+      "item": "byg:aspen_log"
+    },
+    {
+      "item": "byg:aspen_log"
+    },
+    {
+      "item": "byg:aspen_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:aspen_byg_kitchen_wall_counter",
+    "count": 6
+  }
+}

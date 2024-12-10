@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:sythian_stem"
+    },
+    {
+      "item": "byg:sythian_stem"
+    },
+    {
+      "item": "byg:sythian_stem"
+    },
+    {
+      "item": "byg:sythian_stem"
+    },
+    {
+      "item": "byg:sythian_stem"
+    },
+    {
+      "item": "byg:sythian_stem"
+    },
+    {
+      "item": "byg:sythian_planks"
+    },
+    {
+      "item": "byg:sythian_planks"
+    },
+    {
+      "item": "byg:sythian_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:sythian_byg_kitchen_counter",
+    "count": 6
+  }
+}

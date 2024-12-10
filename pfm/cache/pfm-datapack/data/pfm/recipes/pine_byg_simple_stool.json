@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:pine_log"
+    },
+    {
+      "item": "byg:pine_log"
+    },
+    {
+      "item": "byg:pine_planks"
+    },
+    {
+      "item": "byg:pine_planks"
+    },
+    {
+      "item": "byg:pine_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:pine_byg_simple_stool",
+    "count": 4
+  }
+}

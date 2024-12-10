@@ -1,0 +1,22 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:rainbow_eucalyptus_log"
+    },
+    {
+      "item": "byg:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "byg:rainbow_eucalyptus_planks"
+    },
+    {
+      "item": "byg:rainbow_eucalyptus_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:rainbow_eucalyptus_byg_modern_stool",
+    "count": 4
+  }
+}

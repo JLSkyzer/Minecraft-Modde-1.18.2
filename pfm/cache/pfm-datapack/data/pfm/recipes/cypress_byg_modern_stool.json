@@ -1,0 +1,22 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:cypress_log"
+    },
+    {
+      "item": "byg:cypress_planks"
+    },
+    {
+      "item": "byg:cypress_planks"
+    },
+    {
+      "item": "byg:cypress_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:cypress_byg_modern_stool",
+    "count": 4
+  }
+}

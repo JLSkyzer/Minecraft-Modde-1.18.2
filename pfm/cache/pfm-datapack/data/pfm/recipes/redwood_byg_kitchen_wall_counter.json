@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:redwood_byg_kitchen_wall_counter",
+    "count": 6
+  }
+}

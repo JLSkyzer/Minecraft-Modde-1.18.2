@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:fir_log"
+    },
+    {
+      "item": "byg:fir_log"
+    },
+    {
+      "item": "byg:fir_log"
+    },
+    {
+      "item": "byg:fir_log"
+    },
+    {
+      "item": "byg:fir_log"
+    },
+    {
+      "item": "byg:fir_log"
+    },
+    {
+      "item": "byg:fir_log"
+    },
+    {
+      "item": "byg:fir_log"
+    },
+    {
+      "item": "byg:fir_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:fir_byg_kitchen_wall_counter",
+    "count": 6
+  }
+}

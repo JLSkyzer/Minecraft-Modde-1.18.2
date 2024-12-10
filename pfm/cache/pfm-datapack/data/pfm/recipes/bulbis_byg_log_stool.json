@@ -1,0 +1,13 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:bulbis_stem"
+    }
+  ],
+  "result": {
+    "item": "pfm:bulbis_byg_log_stool",
+    "count": 4
+  }
+}

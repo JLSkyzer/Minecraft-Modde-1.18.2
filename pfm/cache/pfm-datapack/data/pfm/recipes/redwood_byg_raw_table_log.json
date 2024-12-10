@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:redwood_byg_raw_table_log",
+    "count": 4
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_planks"
+    },
+    {
+      "item": "byg:skyris_planks"
+    },
+    {
+      "item": "byg:skyris_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:skyris_byg_table_classic",
+    "count": 4
+  }
+}

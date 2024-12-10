@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "byg:imparius_stem"
+    },
+    {
+      "item": "byg:imparius_stem"
+    },
+    {
+      "item": "byg:imparius_planks"
+    },
+    {
+      "item": "byg:imparius_planks"
+    },
+    {
+      "item": "byg:imparius_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:imparius_byg_table_log",
+    "count": 4
+  }
+}

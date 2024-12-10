@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:witch_hazel_log"
+    },
+    {
+      "item": "byg:witch_hazel_log"
+    },
+    {
+      "item": "byg:witch_hazel_log"
+    },
+    {
+      "item": "byg:witch_hazel_log"
+    },
+    {
+      "item": "byg:witch_hazel_log"
+    },
+    {
+      "item": "byg:witch_hazel_log"
+    },
+    {
+      "item": "byg:witch_hazel_log"
+    },
+    {
+      "item": "byg:witch_hazel_log"
+    },
+    {
+      "item": "byg:witch_hazel_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:witch_hazel_byg_kitchen_wall_counter",
+    "count": 6
+  }
+}

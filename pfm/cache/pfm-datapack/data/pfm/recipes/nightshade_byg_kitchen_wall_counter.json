@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:nightshade_log"
+    },
+    {
+      "item": "byg:nightshade_log"
+    },
+    {
+      "item": "byg:nightshade_log"
+    },
+    {
+      "item": "byg:nightshade_log"
+    },
+    {
+      "item": "byg:nightshade_log"
+    },
+    {
+      "item": "byg:nightshade_log"
+    },
+    {
+      "item": "byg:nightshade_log"
+    },
+    {
+      "item": "byg:nightshade_log"
+    },
+    {
+      "item": "byg:nightshade_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:nightshade_byg_kitchen_wall_counter",
+    "count": 6
+  }
+}

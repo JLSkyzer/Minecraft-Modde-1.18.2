@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "byg:cika_log"
+    },
+    {
+      "item": "byg:cika_log"
+    },
+    {
+      "item": "byg:cika_log"
+    },
+    {
+      "item": "byg:cika_log"
+    },
+    {
+      "item": "byg:cika_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:cika_byg_raw_table_log",
+    "count": 4
+  }
+}

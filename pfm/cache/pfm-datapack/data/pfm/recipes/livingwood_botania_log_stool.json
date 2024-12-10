@@ -1,0 +1,13 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "botania:livingwood_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:livingwood_botania_log_stool",
+    "count": 4
+  }
+}

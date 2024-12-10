@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:ether_log"
+    },
+    {
+      "item": "byg:ether_log"
+    },
+    {
+      "item": "byg:ether_log"
+    },
+    {
+      "item": "byg:ether_planks"
+    },
+    {
+      "item": "byg:ether_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:ether_byg_classic_stool",
+    "count": 4
+  }
+}

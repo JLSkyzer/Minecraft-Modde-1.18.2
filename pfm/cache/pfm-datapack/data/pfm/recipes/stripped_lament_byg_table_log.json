@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "byg:lament_planks"
+    },
+    {
+      "item": "byg:lament_planks"
+    },
+    {
+      "item": "byg:stripped_lament_log"
+    },
+    {
+      "item": "byg:stripped_lament_log"
+    },
+    {
+      "item": "byg:stripped_lament_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_lament_byg_table_log",
+    "count": 4
+  }
+}

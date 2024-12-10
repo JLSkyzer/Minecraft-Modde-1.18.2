@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_planks"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:baobab_byg_classic_nightstand",
+    "count": 4
+  }
+}

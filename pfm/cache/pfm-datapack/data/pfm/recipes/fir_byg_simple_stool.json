@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:fir_log"
+    },
+    {
+      "item": "byg:fir_log"
+    },
+    {
+      "item": "byg:fir_planks"
+    },
+    {
+      "item": "byg:fir_planks"
+    },
+    {
+      "item": "byg:fir_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:fir_byg_simple_stool",
+    "count": 4
+  }
+}

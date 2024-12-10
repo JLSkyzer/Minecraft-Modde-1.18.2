@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:stripped_holly_log"
+    },
+    {
+      "item": "byg:stripped_holly_log"
+    },
+    {
+      "item": "byg:stripped_holly_log"
+    },
+    {
+      "item": "byg:stripped_holly_log"
+    },
+    {
+      "item": "byg:stripped_holly_log"
+    },
+    {
+      "item": "byg:stripped_holly_log"
+    },
+    {
+      "item": "byg:stripped_holly_log"
+    },
+    {
+      "item": "byg:stripped_holly_log"
+    },
+    {
+      "item": "byg:stripped_holly_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_holly_byg_kitchen_wall_counter",
+    "count": 6
+  }
+}

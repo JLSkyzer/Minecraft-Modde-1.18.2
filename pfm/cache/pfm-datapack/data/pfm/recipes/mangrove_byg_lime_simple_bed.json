@@ -1,0 +1,27 @@
+{
+  "type": "pfm:furniture",
+  "group": "bedroom",
+  "ingredients": [
+    {
+      "item": "byg:mangrove_planks"
+    },
+    {
+      "item": "byg:mangrove_planks"
+    },
+    {
+      "item": "byg:mangrove_planks"
+    },
+    {
+      "item": "byg:mangrove_planks"
+    },
+    {
+      "item": "byg:mangrove_planks"
+    },
+    {
+      "item": "minecraft:lime_bed"
+    }
+  ],
+  "result": {
+    "item": "pfm:mangrove_byg_lime_simple_bed"
+  }
+}

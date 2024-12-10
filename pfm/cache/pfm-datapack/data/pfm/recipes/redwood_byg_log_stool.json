@@ -1,0 +1,13 @@
+{
+  "type": "pfm:furniture",
+  "group": "stools",
+  "ingredients": [
+    {
+      "item": "byg:redwood_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:redwood_byg_log_stool",
+    "count": 4
+  }
+}

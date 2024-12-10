@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "byg:skyris_log"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "pfm:skyris_byg_kitchen_wall_small_drawer",
+    "count": 3
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "byg:maple_planks"
+    },
+    {
+      "item": "byg:maple_planks"
+    },
+    {
+      "item": "byg:stripped_maple_log"
+    },
+    {
+      "item": "byg:stripped_maple_log"
+    },
+    {
+      "item": "byg:stripped_maple_log"
+    },
+    {
+      "item": "byg:stripped_maple_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_maple_byg_chair",
+    "count": 4
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    },
+    {
+      "item": "byg:mangrove_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:mangrove_byg_raw_table_log",
+    "count": 4
+  }
+}

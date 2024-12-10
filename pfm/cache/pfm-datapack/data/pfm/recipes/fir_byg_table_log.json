@@ -1,0 +1,25 @@
+{
+  "type": "pfm:furniture",
+  "group": "tables",
+  "ingredients": [
+    {
+      "item": "byg:fir_log"
+    },
+    {
+      "item": "byg:fir_log"
+    },
+    {
+      "item": "byg:fir_planks"
+    },
+    {
+      "item": "byg:fir_planks"
+    },
+    {
+      "item": "byg:fir_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:fir_byg_table_log",
+    "count": 4
+  }
+}

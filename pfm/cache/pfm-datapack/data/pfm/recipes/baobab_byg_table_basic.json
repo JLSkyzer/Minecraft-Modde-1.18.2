@@ -1,0 +1,34 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_log"
+    },
+    {
+      "item": "byg:baobab_planks"
+    },
+    {
+      "item": "byg:baobab_planks"
+    },
+    {
+      "item": "byg:baobab_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:baobab_byg_table_basic",
+    "count": 4
+  }
+}

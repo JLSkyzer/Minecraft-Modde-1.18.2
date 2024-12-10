@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_log"
+    },
+    {
+      "item": "byg:redwood_planks"
+    },
+    {
+      "item": "byg:redwood_planks"
+    },
+    {
+      "item": "byg:redwood_planks"
+    }
+  ],
+  "result": {
+    "item": "pfm:redwood_byg_kitchen_counter",
+    "count": 6
+  }
+}

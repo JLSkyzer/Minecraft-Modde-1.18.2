@@ -1,0 +1,37 @@
+{
+  "type": "pfm:furniture",
+  "group": "kitchen",
+  "ingredients": [
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "byg:bulbis_stem"
+    },
+    {
+      "item": "byg:bulbis_stem"
+    }
+  ],
+  "result": {
+    "item": "pfm:bulbis_byg_kitchen_wall_counter",
+    "count": 6
+  }
+}

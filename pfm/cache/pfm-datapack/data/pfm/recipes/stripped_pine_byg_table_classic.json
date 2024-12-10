@@ -1,0 +1,31 @@
+{
+  "type": "pfm:furniture",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "byg:pine_planks"
+    },
+    {
+      "item": "byg:pine_planks"
+    },
+    {
+      "item": "byg:pine_planks"
+    },
+    {
+      "item": "byg:pine_planks"
+    },
+    {
+      "item": "byg:stripped_pine_log"
+    },
+    {
+      "item": "byg:stripped_pine_log"
+    },
+    {
+      "item": "byg:stripped_pine_log"
+    }
+  ],
+  "result": {
+    "item": "pfm:stripped_pine_byg_table_classic",
+    "count": 4
+  }
+}
