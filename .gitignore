@@ -1,0 +1,5 @@
+crash-reports/*
+logs/*
+minecraftinstance.json
+usercache.json
+usernamecache.json
