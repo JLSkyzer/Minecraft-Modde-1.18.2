@@ -1,5 +1,6 @@
-crash-reports/*
-logs/*
+crash-reports/
+logs/
 minecraftinstance.json
 usercache.json
 usernamecache.json
+/logs

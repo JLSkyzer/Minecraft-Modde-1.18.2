@@ -1,77 +1,77 @@
-[15:12:05] [INFO ] Hello, World! (You will see this line every time server resources reload)
-[15:12:05] [INFO ] Loaded script server_scripts:script.js in 0.003 s
-[15:12:05] [INFO ] Loaded 1/1 KubeJS server scripts in 0.008 s
-[15:12:05] [INFO ] Scripts loaded
-[15:12:05] [WARN ] Failed to register handler for recipe type ars_nouveau:glyph_recipe as it doesn't exist!
-[15:12:05] [INFO ] Scanning recipes...
-[15:12:08] [WARN ] Failed to parse recipe 'tac:ultimate_material[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:12:08] [WARN ] Failed to parse recipe tac:ultimate_material[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:12:08] [WARN ] Failed to parse recipe 'pamhc2crops:torch_cattail[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
-[15:12:08] [WARN ] Failed to parse recipe pamhc2crops:torch_cattail[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
-[15:12:08] [WARN ] Failed to parse recipe 'create:pressing/compat/byg/lush_grass_path[create:pressing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:lush_grass'
-[15:12:08] [WARN ] Failed to parse recipe create:pressing/compat/byg/lush_grass_path[create:pressing]: com.google.gson.JsonSyntaxException: Unknown item 'byg:lush_grass'
-[15:12:08] [WARN ] Failed to parse recipe 'tac:legendary_material[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:12:08] [WARN ] Failed to parse recipe tac:legendary_material[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/light_blue[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/light_blue[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/yellow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/yellow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/blue[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/blue[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe 'jeg:recycling_hk_g36[jeg:recycling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'jeg:hk_g36'
-[15:12:08] [WARN ] Failed to parse recipe jeg:recycling_hk_g36[jeg:recycling]: com.google.gson.JsonSyntaxException: Unknown item 'jeg:hk_g36'
-[15:12:08] [WARN ] Failed to parse recipe 'tac:rare_material[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:12:08] [WARN ] Failed to parse recipe tac:rare_material[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:12:08] [WARN ] Failed to parse recipe 'tac:uncommon_material[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:12:08] [WARN ] Failed to parse recipe tac:uncommon_material[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/magenta[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/magenta[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/purple[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/purple[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe 'create:milling/compat/byg/compat/byg/white_sage[create:milling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:compat/byg/white_sage'
-[15:12:08] [WARN ] Failed to parse recipe create:milling/compat/byg/compat/byg/white_sage[create:milling]: com.google.gson.JsonSyntaxException: Unknown item 'byg:compat/byg/white_sage'
-[15:12:08] [WARN ] Failed to parse recipe 'pamhc2crops:bottle_x4_cattail_x2[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
-[15:12:08] [WARN ] Failed to parse recipe pamhc2crops:bottle_x4_cattail_x2[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:screen[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:stained_glass_pane'
-[15:12:08] [WARN ] Failed to parse recipe devices:screen[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:stained_glass_pane'
-[15:12:08] [WARN ] Failed to parse recipe 'create:milling/compat/byg/purple_rose[create:milling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:purple_rose'
-[15:12:08] [WARN ] Failed to parse recipe create:milling/compat/byg/purple_rose[create:milling]: com.google.gson.JsonSyntaxException: Unknown item 'byg:purple_rose'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/brown[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/brown[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/red[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/red[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/gray[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/gray[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe 'create:milling/compat/byg/lolipop_flower[create:milling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:lolipop_flower'
-[15:12:08] [WARN ] Failed to parse recipe create:milling/compat/byg/lolipop_flower[create:milling]: com.google.gson.JsonSyntaxException: Unknown item 'byg:lolipop_flower'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/pink[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:ping_wool'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/pink[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:ping_wool'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:ethernet_cable[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:dye'
-[15:12:08] [WARN ] Failed to parse recipe devices:ethernet_cable[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:dye'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/black[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/black[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/orange[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/orange[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/lime[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/lime[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe 'create:milling/compat/byg/orchid[create:milling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:orchid'
-[15:12:08] [WARN ] Failed to parse recipe create:milling/compat/byg/orchid[create:milling]: com.google.gson.JsonSyntaxException: Unknown item 'byg:orchid'
-[15:12:08] [WARN ] Failed to parse recipe 'create:milling/compat/byg/compat/byg/winter_cyclamen[create:milling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:compat/byg/winter_cyclamen'
-[15:12:08] [WARN ] Failed to parse recipe create:milling/compat/byg/compat/byg/winter_cyclamen[create:milling]: com.google.gson.JsonSyntaxException: Unknown item 'byg:compat/byg/winter_cyclamen'
-[15:12:08] [WARN ] Failed to parse recipe 'jeg:recycling_scar_l[jeg:recycling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'jeg:scar_l'
-[15:12:08] [WARN ] Failed to parse recipe jeg:recycling_scar_l[jeg:recycling]: com.google.gson.JsonSyntaxException: Unknown item 'jeg:scar_l'
-[15:12:08] [WARN ] Failed to parse recipe 'tac:epic_material[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:12:08] [WARN ] Failed to parse recipe tac:epic_material[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/cyan[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/cyan[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/silver[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/silver[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/white[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/white[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
-[15:12:08] [WARN ] Failed to parse recipe 'devices:office_chair/green[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [WARN ] Failed to parse recipe devices:office_chair/green[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
-[15:12:08] [INFO ] Found 31674 recipes and 0 failed recipes in 653.9 ms
-[15:12:08] [INFO ] Posted recipe events in 768.9 μs
-[15:12:09] [INFO ] Modified & removed recipes in 203.1 ms
-[15:12:09] [INFO ] Added recipes in 268.8 μs
-[15:12:09] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[19:47:15] [INFO ] Hello, World! (You will see this line every time server resources reload)
+[19:47:15] [INFO ] Loaded script server_scripts:script.js in 0.002 s
+[19:47:15] [INFO ] Loaded 1/1 KubeJS server scripts in 0.008 s
+[19:47:15] [INFO ] Scripts loaded
+[19:47:15] [WARN ] Failed to register handler for recipe type ars_nouveau:glyph_recipe as it doesn't exist!
+[19:47:15] [INFO ] Scanning recipes...
+[19:47:19] [WARN ] Failed to parse recipe 'tac:ultimate_material[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[19:47:19] [WARN ] Failed to parse recipe tac:ultimate_material[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[19:47:19] [WARN ] Failed to parse recipe 'pamhc2crops:torch_cattail[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
+[19:47:19] [WARN ] Failed to parse recipe pamhc2crops:torch_cattail[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
+[19:47:19] [WARN ] Failed to parse recipe 'create:pressing/compat/byg/lush_grass_path[create:pressing]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:lush_grass'
+[19:47:19] [WARN ] Failed to parse recipe create:pressing/compat/byg/lush_grass_path[create:pressing]: com.google.gson.JsonSyntaxException: Unknown item 'byg:lush_grass'
+[19:47:19] [WARN ] Failed to parse recipe 'tac:legendary_material[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[19:47:19] [WARN ] Failed to parse recipe tac:legendary_material[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/light_blue[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/light_blue[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/yellow[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/yellow[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/blue[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/blue[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe 'jeg:recycling_hk_g36[jeg:recycling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'jeg:hk_g36'
+[19:47:19] [WARN ] Failed to parse recipe jeg:recycling_hk_g36[jeg:recycling]: com.google.gson.JsonSyntaxException: Unknown item 'jeg:hk_g36'
+[19:47:19] [WARN ] Failed to parse recipe 'tac:rare_material[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[19:47:19] [WARN ] Failed to parse recipe tac:rare_material[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[19:47:19] [WARN ] Failed to parse recipe 'tac:uncommon_material[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[19:47:19] [WARN ] Failed to parse recipe tac:uncommon_material[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/magenta[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/magenta[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/purple[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/purple[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe 'create:milling/compat/byg/compat/byg/white_sage[create:milling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:compat/byg/white_sage'
+[19:47:19] [WARN ] Failed to parse recipe create:milling/compat/byg/compat/byg/white_sage[create:milling]: com.google.gson.JsonSyntaxException: Unknown item 'byg:compat/byg/white_sage'
+[19:47:19] [WARN ] Failed to parse recipe 'pamhc2crops:bottle_x4_cattail_x2[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
+[19:47:19] [WARN ] Failed to parse recipe pamhc2crops:bottle_x4_cattail_x2[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item 'pamhc2crops:cattilitem'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:screen[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:stained_glass_pane'
+[19:47:19] [WARN ] Failed to parse recipe devices:screen[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:stained_glass_pane'
+[19:47:19] [WARN ] Failed to parse recipe 'create:milling/compat/byg/purple_rose[create:milling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:purple_rose'
+[19:47:19] [WARN ] Failed to parse recipe create:milling/compat/byg/purple_rose[create:milling]: com.google.gson.JsonSyntaxException: Unknown item 'byg:purple_rose'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/brown[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/brown[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/red[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/red[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/gray[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/gray[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe 'create:milling/compat/byg/lolipop_flower[create:milling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:lolipop_flower'
+[19:47:19] [WARN ] Failed to parse recipe create:milling/compat/byg/lolipop_flower[create:milling]: com.google.gson.JsonSyntaxException: Unknown item 'byg:lolipop_flower'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/pink[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:ping_wool'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/pink[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:ping_wool'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:ethernet_cable[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:dye'
+[19:47:19] [WARN ] Failed to parse recipe devices:ethernet_cable[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:dye'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/black[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/black[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/orange[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/orange[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/lime[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/lime[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe 'create:milling/compat/byg/orchid[create:milling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:orchid'
+[19:47:19] [WARN ] Failed to parse recipe create:milling/compat/byg/orchid[create:milling]: com.google.gson.JsonSyntaxException: Unknown item 'byg:orchid'
+[19:47:19] [WARN ] Failed to parse recipe 'create:milling/compat/byg/compat/byg/winter_cyclamen[create:milling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'byg:compat/byg/winter_cyclamen'
+[19:47:19] [WARN ] Failed to parse recipe create:milling/compat/byg/compat/byg/winter_cyclamen[create:milling]: com.google.gson.JsonSyntaxException: Unknown item 'byg:compat/byg/winter_cyclamen'
+[19:47:19] [WARN ] Failed to parse recipe 'jeg:recycling_scar_l[jeg:recycling]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'jeg:scar_l'
+[19:47:19] [WARN ] Failed to parse recipe jeg:recycling_scar_l[jeg:recycling]: com.google.gson.JsonSyntaxException: Unknown item 'jeg:scar_l'
+[19:47:19] [WARN ] Failed to parse recipe 'tac:epic_material[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[19:47:19] [WARN ] Failed to parse recipe tac:epic_material[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/cyan[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/cyan[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/silver[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/silver[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/white[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/white[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:wool'
+[19:47:19] [WARN ] Failed to parse recipe 'devices:office_chair/green[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [WARN ] Failed to parse recipe devices:office_chair/green[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'minecraft:concrete'
+[19:47:19] [INFO ] Found 32130 recipes and 0 failed recipes in 614.4 ms
+[19:47:19] [INFO ] Posted recipe events in 684.3 μs
+[19:47:19] [INFO ] Modified & removed recipes in 169.1 ms
+[19:47:19] [INFO ] Added recipes in 307.5 μs
+[19:47:19] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
