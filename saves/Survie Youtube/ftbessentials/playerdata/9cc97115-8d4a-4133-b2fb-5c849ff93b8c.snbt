@@ -1,0 +1,17 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	name: "JLSkyzer"
+	last_seen: { dim: "minecraft:overworld", x: -5, y: 65, z: -18, time: 1734189113732L, xRot: -31.649763f, yRot: 5.428467f }
+	recording: 0
+	teleport_history: [
+		{ dim: "minecraft:overworld", x: 280, y: 71, z: -502, time: 1734188910534L, xRot: 13.499655f, yRot: 11.054871f }
+		{ dim: "minecraft:overworld", x: 2, y: 63, z: -17, time: 1734188957687L, xRot: 4.649855f, yRot: 91.80542f }
+		{ dim: "minecraft:overworld", x: 279, y: 75, z: -495, time: 1734188965344L, xRot: 43.199722f, yRot: -26.445213f }
+	]
+	homes: {
+		v: { dim: "minecraft:overworld", x: 282, y: 70, z: -503, time: 1734188907934L, xRot: 13.499655f, yRot: 11.054871f }
+	}
+}

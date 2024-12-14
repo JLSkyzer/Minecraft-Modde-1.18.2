@@ -3,7 +3,7 @@
 	#-1 = No carvers, not even vanilla. 0 = 1.12 retrogen, 1 = 1.16, 2 = current version vanilla.
 	#1.12 mode is suggested as 1.16 has issues regarding tunnels not connecting properly.
 	#Default=1
-	worldgen_type = 1
+	worldgen_type = 0
 	#Enable or disable cheese and spaghetti caves (1.18+ caves).
 	#These caves are the larger caverns and connecting caves found in modern Minecraft. 
 	#Default=true
@@ -14,7 +14,7 @@
 	enable_deepslate = false
 	#Enable/disable deepslate ores when deepslate generation is disable. 
 	#Default=false
-	enable_deepslate_ores_when_deepslate_is_disabled = false
+	enable_deepslate_ores_when_deepslate_is_disabled = true
 	#** EXPERIMENTAL ** World features (including ore groups, stone groups, non-cave features, etc) to remove.
 	#Use /listallfeatures <partial name> to list active features. Tuff and granite might not be fully removed due to 
 	#an existing bug. Features from certain mods might not be removed properly at this time due to an existing bug. 
